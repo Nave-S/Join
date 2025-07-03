@@ -42,7 +42,7 @@ function handleBreakpointForBtn() {
  * @returns {void}
  */
 function proofSizeForShowBtn() {
-  const mediaQuery = window.matchMedia('(min-width: 1345px)');
+  const mediaQuery = window.matchMedia('(min-width: 1346px)');
   mediaQuery.addEventListener('change', handleBreakpointForBtn);
   toggleSectionButton();
 };
@@ -57,7 +57,7 @@ function toggleSectionButton() {
     const sectionButtons = document.querySelectorAll('#section_button_container')
     const existingTemplate = document.querySelector('.swap_status_template');
     sectionButtons.forEach(button => {
-        if (window.innerWidth < 1345) {
+        if (window.innerWidth < 1346) {
             button.style.display = 'flex'; 
         }else {
             button.style.display = 'none';
