@@ -1,4 +1,4 @@
-const BASE_URL = 'https://join-455-default-rtdb.europe-west1.firebasedatabase.app/';
+const BASE_URL = 'https://join-7b748-default-rtdb.europe-west1.firebasedatabase.app/';
 
 /**
  * Fetches task data from Firebase database

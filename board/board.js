@@ -1,4 +1,4 @@
-BASE_URL = 'https://join-455-default-rtdb.europe-west1.firebasedatabase.app/';
+BASE_URL = 'https://join-7b748-default-rtdb.europe-west1.firebasedatabase.app/';
 const mainContainer = document.getElementById('navbar_container');
 const headerContainer = document.getElementById('header_container');
 const overlay = document.getElementById('overlay_background_container');
@@ -133,11 +133,11 @@ function clearContainer(container) {
  * @returns {void} Renders task cards into the container
  */
 function renderTasks(tasks, container) {
-       tasks.forEach((task) => {
+       tasks.slice().reverse().forEach((task) => {
         const progress = calculateSubtaskProgress(task);
         const categoryColor = getCategoryColor(task.category);
         container.innerHTML += getTaskCard(task, progress, categoryColor);
-        toggleSectionButton();
+        proofSizeForShowBtn();
     });
 };
 

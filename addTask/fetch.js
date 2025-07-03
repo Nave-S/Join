@@ -1,4 +1,4 @@
-const BASE_URL_ADDTASK = 'https://join-455-default-rtdb.europe-west1.firebasedatabase.app/';
+const BASE_URL_ADDTASK = 'https://join-7b748-default-rtdb.europe-west1.firebasedatabase.app/';
 
 let allContactsArray = [];
 
